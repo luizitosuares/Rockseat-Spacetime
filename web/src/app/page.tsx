@@ -1,9 +1,5 @@
-import { Button } from "./components/Button"
-
 export default function Home() {
   return (
-  <h1> Olá, Nelson
-    <Button/>
-  </h1>
+  <h1> Olá, Nelson</h1>
     )}
 

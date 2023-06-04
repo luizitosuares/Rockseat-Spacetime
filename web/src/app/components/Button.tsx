@@ -2,10 +2,14 @@ const styles = {
     color: '#F00',
 }
 
-const nome = 'NELSON'
+    interface ButtonProps{
+       title: string 
+    }
 
-export function Button(){
+export function Button(props:ButtonProps){
 return (
-    <p style={styles}>{nome} </p>
-)
+    <p style={styles}> 
+    {props.title}
+    </p>
+    )
 }
