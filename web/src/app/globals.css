@@ -1,4 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+export default function Home(){
+
+    return (
+        <div className = "text-">
+            oi
+        <div>
+
+    )
+}
+
 
